@@ -9,7 +9,7 @@ These functions return a formatted string. You need to `print()` them.
 * `warnLog(message, detail)`
 * `errorLog(message, detail)`
 * `successLog(message, detail)`
-	### ⌨️ Interactive Logs
+### ⌨️ Interactive Logs
 These functions use `input()` and return the user's string.
 * `inputLog(message)` - Standard prompt.
 * `requestLog(message)` - Prompt with a `(Y/n)` hint.
