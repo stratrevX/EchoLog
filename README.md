@@ -1,6 +1,7 @@
 # EchoLog - 0.1.0
 A simple logging library I made for myself in Python. 
 Made public just to be able to install it onto every project of mine easily.
+
 ## 💡Features
 
 ### 📋 Standard Logs
@@ -9,6 +10,7 @@ These functions return a formatted string. You need to `print()` them.
 * `warnLog(message, detail)`
 * `errorLog(message, detail)`
 * `successLog(message, detail)`
+
 ### ⌨️ Interactive Logs
 These functions use `input()` and return the user's string.
 * `inputLog(message)` - Standard prompt.

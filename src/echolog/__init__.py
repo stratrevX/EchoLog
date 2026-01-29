@@ -11,7 +11,6 @@ from .logs import (
     inputLog,
     holdLog,
     maskedLog,
-    debugLog,
 )
 
 __all__ = [
@@ -23,5 +22,4 @@ __all__ = [
     "inputLog",
     "holdLog",
     "maskedLog",
-    "debugLog",
 ]
