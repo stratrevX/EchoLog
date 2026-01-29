@@ -38,3 +38,6 @@ print(infoLog("This is an info log.", detail="Additional details can be provided
 import echolog as elog
 print(elog.infoLog("This is an info log.", "Additional details here."))
 ```
+
+### Warn
+Interactive logs shouldn't be used with `print()` if not intended, as it would return the inserted value.
